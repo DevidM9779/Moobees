@@ -10,7 +10,6 @@ export function StarRating({ rating }) {
     if (halfStar) stars.push(<StarHalf key={"star-half"}/>)
     for (let i = 0; i<emptyStars; i++) stars.push(<StarEmpty key={"star-empty"+i}/>)
 
-    console.log(stars)
     return (
         <div>{stars}</div>
     )
