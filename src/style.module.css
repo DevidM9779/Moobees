@@ -1,0 +1,19 @@
+.main_container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+.header {
+    flex: 2;
+}
+
+.movie_data {
+    flex: 4;
+}
+
+.advised_shows {
+    flex: 2;
+}
